@@ -1,0 +1,516 @@
+/* || Font Family */
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+/* || Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+/* || Nav */
+nav {
+	height: 112px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav .nav-btn {
+	border: none;
+	outline: none;
+	background-color: #000;
+	color: #fff;
+	border-radius: 30px;
+	padding: 14px 28px;
+	font-size: 14px;
+	margin-right: 140px;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in;
+}
+
+.nav-btn:hover,
+.nav-btn:focus {
+	background-color: #755cde;
+}
+
+.logo {
+	margin-left: 112px;
+}
+
+/* || Main */
+main .info {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.info h1 {
+	font-size: 3.4rem;
+	font-weight: 700;
+	margin-top: 30px;
+	color: #000;
+}
+
+p {
+	color: #7a746e;
+	margin-top: 20px;
+	font-weight: 500;
+	font-size: 1.2rem;
+	width: 55%;
+	text-align: center;
+	line-height: 30px;
+}
+
+/* || Skill Section */
+
+.skills {
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+}
+
+.skill-box {
+	border-radius: 10px;
+	display: flex;
+	align-items: end;
+	color: #fff;
+	font-weight: 600;
+}
+
+.skill-box h2 {
+	margin-left: 20px;
+}
+
+.opr-container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 416px;
+	height: 100%;
+}
+
+.opr-container h2 {
+	margin-bottom: 24px;
+}
+
+.bv-container {
+	height: 100%;
+}
+
+.bv-container h2 {
+	margin-bottom: 20px;
+}
+
+.purple {
+	height: 380px;
+	width: 416px;
+	background-color: #755cde;
+	margin-right: 26px;
+}
+
+.purple h2 {
+	margin-bottom: 52px;
+}
+
+.orange {
+	height: 180px;
+	width: 196px;
+	background-color: #f6a560;
+}
+
+.pink {
+	height: 180px;
+	width: 196px;
+	background-color: #f39e9e;
+	margin-left: 20px;
+}
+
+.red {
+	height: 180px;
+	width: 416px;
+	background-color: #eb7565;
+	margin-top: 20px;
+}
+
+.blue {
+	height: 180px;
+	width: 416px;
+	background-color: #61c4b7;
+	margin-left: 20px;
+}
+
+.violet {
+	height: 180px;
+	width: 416px;
+	background-color: #552049;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.img1 {
+	margin-left: 10px;
+	margin-bottom: 160px;
+}
+
+.img2 {
+	margin-left: 10px;
+	margin-bottom: 88px;
+}
+
+.img3 {
+	margin-left: 10px;
+	margin-bottom: 88px;
+}
+
+.img4 {
+	margin-left: 70px;
+	margin-bottom: 90px;
+}
+
+.img5 {
+	margin-left: 10px;
+	margin-bottom: 90px;
+}
+
+.img6 {
+	margin-right: 20px;
+	margin-bottom: 90px;
+}
+
+/* || Profile Info Section */
+.profile-info {
+	margin-top: 350px;
+	display: flex;
+	align-items: center;
+}
+
+.profile-img img {
+	width: 519px;
+	height: 519px;
+	margin-left: 86px;
+}
+
+.profile-info .my-info {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.my-info h3 {
+	font-size: 40px;
+	font-weight: 700;
+	width: 70%;
+	margin-left: 80px;
+	color: #000;
+}
+
+.my-info p {
+	width: 70%;
+	text-align: left;
+	margin-left: 78px;
+}
+
+.free-btn {
+	border: none;
+	outline: none;
+	color: #fff;
+	background-color: #ea6652;
+	border-radius: 30px;
+	padding: 16px 40px;
+	font-size: 14px;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in;
+	margin-top: 20px;
+	margin-left: 76px;
+}
+
+.free-btn:hover,
+.free-btn:focus {
+	background-color: #f6a560;
+}
+
+/* || My Work */
+.my-work {
+	margin-top: 100px;
+}
+
+.my-work h3 {
+	text-align: center;
+	color: #000;
+	font-weight: 700;
+	font-size: 24px;
+	margin-bottom: 50px;
+}
+
+.work {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.work-img {
+	border-radius: 10px;
+	width: 480px;
+}
+
+/* Book a Call */
+.booking-section {
+	display: flex;
+	align-items: center;
+	width: 1297px;
+	height: 290px;
+	background-color: #000;
+	border-radius: 10px;
+	margin-top: 200px;
+	padding: 100px;
+	margin-left: 110px;
+	margin-bottom: 40px;
+}
+
+.booking-section h3 {
+	font-weight: 700;
+	font-size: 40px;
+	margin-bottom: 26px;
+	color: #fff;
+}
+
+.booking-section .free-btn {
+	padding: 14px 50px;
+	margin-left: 76px;
+	font-size: 15px;
+	white-space: nowrap;
+}
+
+.booking-section p {
+	color: #fff;
+	text-align: left;
+	width: 74%;
+}
+
+/* || Responsive */
+@media (max-width: 650px) {
+	/* || Nav */
+	nav {
+		height: 80px;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	nav .nav-btn {
+		padding: 12px 26px;
+		margin-right: 20px;
+		white-space: nowrap;
+	}
+
+	.logo {
+		margin-left: 20px;
+		max-width: 45px;
+	}
+
+	/* || Main */
+	.info h1 {
+		font-size: 2.4rem;
+		max-width: 90%;
+		text-align: center;
+		margin-top: 20px;
+		font-weight: 700;
+	}
+
+	p {
+		margin-top: 10px;
+		font-size: 1rem;
+		width: 74%;
+		line-height: 25px;
+	}
+
+	/* || Skill Section */
+	.skills {
+		margin-top: 40px;
+		flex-wrap: wrap;
+	}
+
+	.opr-container {
+		width: 100%;
+		margin-left: 5px;
+	}
+
+	.opr-container h2 {
+		margin-bottom: 24px;
+	}
+
+	.bv-container {
+		height: 100%;
+	}
+
+	.bv-container h2 {
+		margin-bottom: 20px;
+	}
+
+	.purple {
+		height: 380px;
+		width: 90%;
+		background-color: #755cde;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+
+	.purple h2 {
+		margin-bottom: 52px;
+	}
+
+	.orange {
+		height: 180px;
+		width: 156px;
+		background-color: #f6a560;
+		margin-left: 15px;
+	}
+
+	.pink {
+		height: 180px;
+		width: 160px;
+		background-color: #f39e9e;
+		margin-left: 20px;
+	}
+
+	.red {
+		height: 180px;
+		width: 90%;
+		background-color: #eb7565;
+		margin-top: 20px;
+		margin-left: 15px;
+	}
+
+	.blue {
+		height: 180px;
+		width: 90%;
+		background-color: #61c4b7;
+		margin-top: 20px;
+		margin-left: 14px;
+	}
+
+	.violet {
+		height: 180px;
+		width: 90%;
+		background-color: #552049;
+		margin-top: 20px;
+		margin-left: 14px;
+	}
+
+	.img1 {
+		margin-right: 26px;
+		margin-bottom: 160px;
+	}
+
+	.img2 {
+		margin-left: -16px;
+		margin-bottom: 88px;
+	}
+
+	.img3 {
+		margin-left: -10px;
+		margin-bottom: 88px;
+	}
+
+	.img4 {
+		margin-left: 28px;
+		margin-bottom: 90px;
+	}
+
+	.img5 {
+		margin-left: -26px;
+		margin-bottom: 90px;
+	}
+
+	.img6 {
+		margin-right: 20px;
+		margin-bottom: 90px;
+	}
+
+	/* || Profile Info Section */
+	.profile-info {
+		margin-top: 90px;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.profile-img img {
+		width: 80%;
+		height: 100%;
+		margin-left: 30px;
+	}
+
+	.my-info h3 {
+		font-size: 24px;
+		font-weight: 700;
+		width: 80%;
+		margin-top: 36px;
+		margin-left: 40px;
+		text-align: center;
+	}
+
+	.my-info p {
+		width: 90%;
+		text-align: center;
+		margin-left: 26px;
+		margin-top: 26px;
+	}
+
+	.free-btn {
+		padding: 12px 28px;
+		margin-left: 27%;
+	}
+
+	/* || My Work */
+	.my-work h3 {
+		font-size: 22px;
+		margin-bottom: 35px;
+	}
+
+	.work {
+		flex-direction: column;
+	}
+
+	.work-img {
+		width: 86%;
+		margin-left: 26px;
+		margin-bottom: 20px;
+	}
+
+	/* Book a Call */
+	.booking-section {
+		width: 90%;
+		height: 320px;
+		margin-top: 100px;
+		padding: 10px;
+		margin-left: 20px;
+		margin-bottom: 30px;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.booking-section h3 {
+		font-weight: 700;
+		font-size: 20px;
+		margin-top: 16px;
+		margin-bottom: 26px;
+		color: #fff;
+	}
+
+	.booking-section .free-btn {
+		padding: 10px 30px;
+		margin-left: 0;
+		font-size: 13px;
+		white-space: nowrap;
+	}
+
+	.booking-section p {
+		color: #fff;
+		margin-left: 16px;
+		font-size: 15px;
+		width: 90%;
+		text-align: center;
+	}
+}
